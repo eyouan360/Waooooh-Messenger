@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/default_bg"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+          android:layout_marginLeft="15dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="86dp"
+            android:layout_height="108dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/dp_profilone" />
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView97"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="14dp"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/textView97"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_marginBottom="17dp"
+            android:layout_marginLeft="21dp"
+            android:layout_toRightOf="@+id/imageView1"
+        
+             />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView97"
+            android:layout_centerVertical="true"
+            android:text="TextView" />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="7dp">
+        
+        <TextView
+            android:id="@+id/textViewelse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information Personnelle"
+            android:textColor="#FF0000" />
+        
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginLeft="25dp">
+        
+        <TextView
+            android:id="@+id/textView91"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pseudo:" />
+        
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age:" />
+        
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gendre:" />
+        
+         <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Residence:" />
+    </LinearLayout>
+    
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="7dp" 
+        android:layout_marginTop="17dp">
+        
+        <TextView
+            android:id="@+id/textViewTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:text="Information Waooooh " />
+        
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:layout_marginLeft="25dp">
+        
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Derniere vue:" />
+        
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Niveau D'etoile:" />
+        
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp" 
+        android:layout_marginBottom="7dp" 
+        android:layout_marginTop="17dp">
+        
+        <TextView
+            android:id="@+id/textViewBeforeBotom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:text="Information Sur Relation" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp" >
+        
+        <TextView
+            android:id="@+id/textViewBotom1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Situation:" />
+        
+        <TextView
+            android:id="@+id/textBotom2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="En Recherche:" />
+        
+        
+    </LinearLayout>
+</LinearLayout>

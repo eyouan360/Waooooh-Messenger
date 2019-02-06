@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_process_two"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_signplus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="17dp"
+        android:textColor="#FF4134"
+        android:text="+" />
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_deuxcent"
+        android:layout_alignTop="@+id/text_deuxcent"
+        android:layout_marginLeft="17dp"
+        android:layout_toRightOf="@+id/text_deuxcent"
+        android:background="#FFFFFF"
+        android:textColor="#FF4134"
+        android:ems="8"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btn_number"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:background="#29E52F"
+        android:text="Suivant"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/text_deuxcent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_signplus"
+        android:layout_alignBottom="@+id/text_signplus"
+        android:layout_toRightOf="@+id/text_signplus"
+        android:background="#FFFFFF"
+        android:text="   255    "
+        android:textColor="#FF4134" />
+
+    <TextView
+        android:id="@+id/text_des_fraies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_unSms"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/bg_unsms"
+        android:gravity="center"
+        android:text="Des fraies pourraient etre appliquées\nEntrez votre numero de téléphone personnelle"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_des_fraies"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="COTE D&apos;IVOIRE"
+        android:textColor="#FF4134"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_unSms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_unsms"
+        android:gravity="center"
+        android:text=" Un SMS vous serra envoyé pour verifier votre  numero..."
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

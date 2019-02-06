@@ -1,0 +1,41 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    
+     <color name="primary" type="color">#ff259b24</color>
+    <color name="primarydark" type="color">#ff0a7e07</color>
+    <color name="primarytext" type="color">#ffffff</color>
+    <color name="secondarytext" type="color">#ffffff</color>
+    <color name="ondarktext" type="color">#fffafafa</color>
+    <color name="primarybackground" type="color">#fffafafa</color>
+    <color name="secondarybackground" type="color">#ffeeeeee</color>
+    <color name="darkbackground" type="color">#ff323232</color>
+    <color name="divider">#1f000000</color>
+    <color name="red">#ffe51c23</color>
+    <color name="orange">#ffff9800</color>
+    <color name="green">#ff259b24</color>
+    
+    <!-- FOR customer listview -->
+    <color name="genre">#666666</color>
+    <color name="year">#888888</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    
+    <color name="textColor">#FFF</color>
+	<color name="textFieldColor">#000</color>
+	<color name="textShadow">#FFF</color>
+	<color name="listViewBg">#DADFEE</color>
+
+	<color name="sendLightColor">#8897BF</color>
+	<color name="sendMeduimColor">#5D6CA5</color>
+	<color name="sendDarkColor">#515F9F</color>
+
+	<color name="barDarkColor">#CECECE</color>
+	<color name="barMeduimColor">#DFDEE0</color>
+	<color name="barLightColor">#F2F2F2</color>
+    
+
+</resources>
