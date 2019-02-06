@@ -1,4 +1,4 @@
-AndroidIM
+Waooooh Messenger
 =========
 
 ##Android Instant Messaging Application
